@@ -2,7 +2,9 @@
 
 Custom keymap:
 
-```
+```lua
+-- ~/.config/nvim/lua/config/keymaps.lua
+
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
